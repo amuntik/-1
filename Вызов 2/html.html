@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вызов 2</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Раскраска по пикселям</h1>
+        <label for="widthInput">Ширина:</label>
+        <input type="number" id="widthInput" min="1" max="128" placeholder="Введите значение от 1 до 128">
+        <label for="heightInput">Высота:</label>
+        <input type="number" id="heightInput" min="1" max="128" placeholder="Введите значение от 1 до 128">
+        <label for="colorPicker">Цвет:</label>
+        <input type="color" id="colorPicker">
+        <button onclick="createCanvas()">Создать холст</button>
+        <table id="pixelCanvas"></table>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
