@@ -1,0 +1,47 @@
+#taskInput {
+    padding: 8px;
+    margin-right: 10px;
+    width: 90%;
+    border-color: #85004B;
+} 
+#addTaskBtn {
+    padding: 8px 12px;
+    background-color: #85004B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#taskList {
+    list-style-type: circle;
+    padding: 0;
+}
+.taskItem {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid white;
+}
+.deleteBtn {
+    margin-left: 10px;
+    background-color: #85004B;
+    color: white;
+    padding: 2px 6px;
+    border: none;
+    cursor: pointer;
+}
+.task-input-container {
+    display: flex;
+    align-items: center;
+}
+#addTaskBtn {
+    padding: 8px 12px;
+    background-color:#CD0074;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
